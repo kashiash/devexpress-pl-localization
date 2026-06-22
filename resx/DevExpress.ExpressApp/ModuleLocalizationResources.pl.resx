@@ -1,0 +1,1714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Non-calculated\Application\VersionFormat" xml:space="preserve">
+    <value>Wersja {0}.{1}.{2}</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Logon\Caption" xml:space="preserve">
+    <value>Zaloguj się</value>
+  </data>
+  <data name="ActionDesign\Actions\Diagnostic Info.Actions Info\ChoiceActionItems\Actions Info\Caption" xml:space="preserve">
+    <value>Informacje o akcji</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\CreateDashboard\Caption" xml:space="preserve">
+    <value>Stwórz tablicę widoków</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\OrganizeDashboard\Caption" xml:space="preserve">
+    <value>Organizuj tablicę widoków</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Delete Item\Caption" xml:space="preserve">
+    <value>Usuń element</value>
+  </data>
+  <data name="ActionDesign\Actions\Delete Item\ConfirmationMessage" xml:space="preserve">
+    <value>Masz zamiar usunąć zaznaczony element(y). Czy chcesz kontynuować?</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\HideItemsFromDashboard\Caption" xml:space="preserve">
+    <value>Ukryj z tablicy widoków</value>
+  </data>
+  <data name="ActionDesign\Actions\HideItemsFromDashboard\ToolTip" xml:space="preserve">
+    <value>Ukryj wybrany element(y) z tablicy widoków</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ShowItemsOnDashboard\Caption" xml:space="preserve">
+    <value>Pokaż na tablicy widoków</value>
+  </data>
+  <data name="ActionDesign\Actions\ShowItemsOnDashboard\ToolTip" xml:space="preserve">
+    <value>Pokaż wybrany element(y) na tablicy widoków</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Delete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="ActionDesign\Actions\Delete\ConfirmationMessage" xml:space="preserve">
+    <value>Masz zamiar usunąć wybrany rekord (y). Czy chcesz kontynuować?</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Save\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\SaveAndClose\Caption" xml:space="preserve">
+    <value>Zapisz i Zamknij</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\SaveAndNew\Caption" xml:space="preserve">
+    <value>Zapisz i Nowy</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Cancel\Caption" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Diagnostic Info\Caption" xml:space="preserve">
+    <value>Diagnostyka</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\DialogCancel\Caption" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\FullTextSearch\Caption" xml:space="preserve">
+    <value>Filtr według tekstu</value>
+  </data>
+  <data name="ActionDesign\Actions\FullTextSearch\ShortCaption" xml:space="preserve">
+    <value>Znajdź!</value>
+  </data>
+  <data name="ActionDesign\Actions\FullTextSearch\NullValuePrompt" xml:space="preserve">
+    <value>Tekst wyszukiwania...</value>
+  </data>
+  <data name="ActionDesign\Actions\FullTextSearch\ToolTip" xml:space="preserve">
+    <value>Filtrowanie obiektów tekstowych</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\SetFilter\Caption" xml:space="preserve">
+    <value>Filtrowanie</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Unlink\Caption" xml:space="preserve">
+    <value>Rozłącz</value>
+  </data>
+  <data name="ActionDesign\Actions\Unlink\ConfirmationMessage" xml:space="preserve">
+    <value>Zamierzasz rozłączyć wybrany rekord (y). Czy chcesz kontynuować?</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Link\Caption" xml:space="preserve">
+    <value>Połącz</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ListViewShowObject\Caption" xml:space="preserve">
+    <value>Otwórz</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Logoff\Caption" xml:space="preserve">
+    <value>Wyloguj</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\New\Caption" xml:space="preserve">
+    <value>Nowy</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\New\DisableReasons\MasterObjectIsNew\Caption" xml:space="preserve">
+    <value>Edytowany obiekt jest nowy.</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\PreviousObject\Caption" xml:space="preserve">
+    <value>Poprzedni obiekt</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\NextObject\Caption" xml:space="preserve">
+    <value>Następny obiekt</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Refresh\Caption" xml:space="preserve">
+    <value>Odśwież</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ShowNavigationItem\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="ActionDesign\Actions\Diagnostic Info.View Info\ChoiceActionItems\View Info\Caption" xml:space="preserve">
+    <value>Zobacz Informacje</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\NavigateBack\Caption" xml:space="preserve">
+    <value>Powrót</value>
+  </data>
+  <data name="ActionDesign\Actions\NavigateBack\ToolTip" xml:space="preserve">
+    <value>Przejdź do poprzedniego widoku</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\NavigateForward\Caption" xml:space="preserve">
+    <value>Do przodu</value>
+  </data>
+  <data name="ActionDesign\Actions\NavigateForward\ToolTip" xml:space="preserve">
+    <value>Przejdź do następnego widoku</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\DisableReasons\ByContext_RequireMultipleObjects\Caption" xml:space="preserve">
+    <value>Wymaga co najmniej jednego zaznaczonego obiektu</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\DisableReasons\ByContext_RequireSingleObject\Caption" xml:space="preserve">
+    <value>Wymaga pojedynczego zaznaczonego obiektu</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\DisableReasons\Security\Caption" xml:space="preserve">
+    <value>Brak praw</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ActionContainerDashboardOrganizationItem\Caption" xml:space="preserve">
+    <value>Kontener akcji</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ActionContainerDashboardOrganizationItem\OwnMembers\ActionContainer\Caption" xml:space="preserve">
+    <value>Kontener akcji</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ActionContainerDescriptor\Caption" xml:space="preserve">
+    <value>Kontener akcji - deskryptor</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ActionContainerDescriptor\OwnMembers\ActionContainerId\Caption" xml:space="preserve">
+    <value>Kontener akcji - id</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardCreationInfo\Caption" xml:space="preserve">
+    <value>Kreator tworzenia tablicy widoków</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardCreationInfo\OwnMembers\DashboardName\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardOrganizationItem\OwnMembers\Item\Caption" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardOrganizer\Caption" xml:space="preserve">
+    <value>Organizator tablicy widoków</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardOrganizer\OwnMembers\ViewItems\Caption" xml:space="preserve">
+    <value>Elementy widoku</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardViewItemDescriptor\OwnMembers\ViewCaption\Caption" xml:space="preserve">
+    <value>Tytuł widoku</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardViewItemDescriptor\OwnMembers\ViewId\Caption" xml:space="preserve">
+    <value>Id widoku</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardViewItemDescriptor\OwnMembers\ViewDescription\Caption" xml:space="preserve">
+    <value>Opis widoku</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DiagnosticInfoObject\Caption" xml:space="preserve">
+    <value>Obiekt informacji diagnostycznej</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DiagnosticInfoObject\OwnMembers\AsText\Caption" xml:space="preserve">
+    <value>Jako tekst</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.StaticImageDashboardOrganizationItem\Caption" xml:space="preserve">
+    <value>Obraz statyczny</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.StaticImageDashboardOrganizationItem\OwnMembers\ImageName\Caption" xml:space="preserve">
+    <value>Nazwa obrazu</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.StaticImageDashboardOrganizationItem\OwnMembers\Preview\Caption" xml:space="preserve">
+    <value>Podgląd</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.StaticTextDashboardOrganizationItem\Caption" xml:space="preserve">
+    <value>Tekst statyczny</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.StaticTextDashboardOrganizationItem\OwnMembers\Text\Caption" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ViewDashboardOrganizationItem\Caption" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ViewDashboardOrganizationItem\OwnMembers\ObjectType\Caption" xml:space="preserve">
+    <value>Typ obiektu</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ViewDashboardOrganizationItem\OwnMembers\ViewDescriptor\Caption" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ViewDashboardOrganizationItem\OwnMembers\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Non-calculated\Localization\Captions\EditCriteria\Value" xml:space="preserve">
+    <value>Edytuj kryteria</value>
+  </data>
+  <data name="Non-calculated\Localization\DashboardOrganizationItems\StaticImage\Value" xml:space="preserve">
+    <value>Obraz</value>
+  </data>
+  <data name="Non-calculated\Localization\DashboardOrganizationItems\StaticText\Value" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Abort\Value" xml:space="preserve">
+    <value>&amp;Przerwij</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Add\Value" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Apply\Value" xml:space="preserve">
+    <value>Zastosuj</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Back\Value" xml:space="preserve">
+    <value>&lt; Powrót</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Cancel\Value" xml:space="preserve">
+    <value>&amp;Anuluj</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Clear\Value" xml:space="preserve">
+    <value>&amp;Wyszyść</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Close\Value" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Edit\Value" xml:space="preserve">
+    <value>Edytuj</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Find\Value" xml:space="preserve">
+    <value>Szukaj</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Ignore\Value" xml:space="preserve">
+    <value>&amp;Ignoruj</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Next\Value" xml:space="preserve">
+    <value>Następny &gt;</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\No\Value" xml:space="preserve">
+    <value>&amp;Nie</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Remove\Value" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Retry\Value" xml:space="preserve">
+    <value>&amp;Ponów</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Yes\Value" xml:space="preserve">
+    <value>&amp;Tak</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\User\Value" xml:space="preserve">
+    <value>Użytkownik: {0}</value>
+  </data>
+  <data name="Non-calculated\Localization\Texts\Error\Value" xml:space="preserve">
+    <value>Błąd</value>
+  </data>
+  <data name="Non-calculated\Localization\Texts\Warning\Value" xml:space="preserve">
+    <value>Ostrzeżenie</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Templates.ActionsToolbarVisibility\Default\Value" xml:space="preserve">
+    <value>Domyślny</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\DialogClose\Caption" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Delete\Value" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\DialogOK\Caption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\None\Value" xml:space="preserve">
+    <value>Brak</value>
+  </data>
+  <data name="Non-calculated\Localization\Captions\View\Value" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardOrganizationItem\OwnMembers\Visibility\Caption" xml:space="preserve">
+    <value>Widoczność</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardName\OwnMembers\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\OK\Value" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Editors.ViewItemVisibility\Show\Value" xml:space="preserve">
+    <value>Pokaż</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Templates.ActionsToolbarVisibility\Show\Value" xml:space="preserve">
+    <value>Pokaż</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Editors.ViewItemVisibility\Hide\Value" xml:space="preserve">
+    <value>Ukryj</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Templates.ActionsToolbarVisibility\Hide\Value" xml:space="preserve">
+    <value>Ukryj</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.ModelDifferenceCopyBehavior\Merge\Value" xml:space="preserve">
+    <value>Scal</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Editors.ViewItemVisibility\Value" xml:space="preserve">
+    <value>Podgląd widoczności obiektów</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Editors.ViewItemVisibility\ShowEmptySpace\Value" xml:space="preserve">
+    <value>Pokaż pustą przestrzeń</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\DisableReasons\AllowAddToCollection\Caption" xml:space="preserve">
+    <value>Dodawanie do kolekcji nie jest dozwolone.</value>
+  </data>
+  <data name="ActionDesign\Actions\Unlink\ShortCaption" xml:space="preserve">
+    <value>Odłącz</value>
+  </data>
+  <data name="ActionDesign\Actions\Unlink\ToolTip" xml:space="preserve">
+    <value>Odłącz</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\CancelAction\Caption" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\RefreshAction\Caption" xml:space="preserve">
+    <value>Odśwież</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\MergeAction\Caption" xml:space="preserve">
+    <value>Scal</value>
+  </data>
+  <data name="ActionDesign\Actions\Cancel\ShortCaption" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ActionDesign\Actions\Cancel\ToolTip" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ActionDesign\Actions\CancelAction\ShortCaption" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ActionDesign\Actions\CancelAction\ToolTip" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ActionDesign\Actions\DialogCancel\ShortCaption" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ActionDesign\Actions\DialogCancel\ToolTip" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ActionDesign\Actions\DialogClose\ShortCaption" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="ActionDesign\Actions\DialogClose\ToolTip" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="ActionDesign\Actions\Delete\ShortCaption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="ActionDesign\Actions\Delete\ToolTip" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="ActionDesign\Actions\New\ShortCaption" xml:space="preserve">
+    <value>Nowy</value>
+  </data>
+  <data name="ActionDesign\Actions\New\ToolTip" xml:space="preserve">
+    <value>Nowy</value>
+  </data>
+  <data name="ActionDesign\Actions\DialogOK\ShortCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ActionDesign\Actions\DialogOK\ToolTip" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Views\ProcessDataLockingInfoMergeDialog_DetailView\Caption" xml:space="preserve">
+    <value>Ostrzeżenie</value>
+  </data>
+  <data name="Views\ProcessDataLockingInfoRefreshDialog_DetailView\Caption" xml:space="preserve">
+    <value>Ostrzeżenie</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_DetailView\Caption" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_DetailView\Items\ViewDescriptor\Caption" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_ListView\Caption" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_ListView\Columns\ViewDescriptor\Caption" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_LookupListView\Caption" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_LookupListView\Columns\ViewDescriptor\Caption" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_ViewItems_ListView\Columns\Visibility\Caption" xml:space="preserve">
+    <value>Widoczność</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_DetailView\Items\Visibility\Caption" xml:space="preserve">
+    <value>Widoczność</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_ListView\Columns\Visibility\Caption" xml:space="preserve">
+    <value>Widoczność</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_LookupListView\Columns\Visibility\Caption" xml:space="preserve">
+    <value>Widoczność</value>
+  </data>
+  <data name="Views\DashboardOrganizer_ViewItems_ListView\Columns\Visibility\Caption" xml:space="preserve">
+    <value>Widoczność</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_DetailView\Items\DashboardName\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_ListView\Columns\DashboardName\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_LookupListView\Columns\DashboardName\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\DashboardName_DetailView\Items\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\DashboardName_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\DashboardName_LookupListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="ActionDesign\Actions\Refresh\ShortCaption" xml:space="preserve">
+    <value>Odśwież</value>
+  </data>
+  <data name="ActionDesign\Actions\Refresh\ToolTip" xml:space="preserve">
+    <value>Odśwież</value>
+  </data>
+  <data name="ActionDesign\Actions\RefreshAction\ShortCaption" xml:space="preserve">
+    <value>Odśwież</value>
+  </data>
+  <data name="ActionDesign\Actions\RefreshAction\ToolTip" xml:space="preserve">
+    <value>Odśwież</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_DetailView\Items\Preview\Caption" xml:space="preserve">
+    <value>Podgląd</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_ListView\Columns\Preview\Caption" xml:space="preserve">
+    <value>Podgląd</value>
+  </data>
+  <data name="ActionDesign\Actions\Save\ShortCaption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="ActionDesign\Actions\Save\ToolTip" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="ActionDesign\Actions\NavigateBack\ShortCaption" xml:space="preserve">
+    <value>Cofnij</value>
+  </data>
+  <data name="Views\StaticTextDashboardOrganizationItem_DetailView\Items\Text\Caption" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="Views\StaticTextDashboardOrganizationItem_ListView\Columns\Text\Caption" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="Views\StaticTextDashboardOrganizationItem_LookupListView\Columns\Text\Caption" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="ActionDesign\Actions\ListViewShowObject\ShortCaption" xml:space="preserve">
+    <value>Otwórz</value>
+  </data>
+  <data name="ActionDesign\Actions\ListViewShowObject\ToolTip" xml:space="preserve">
+    <value>Otwórz</value>
+  </data>
+  <data name="ActionDesign\Actions\SetFilter\ShortCaption" xml:space="preserve">
+    <value>Filtr</value>
+  </data>
+  <data name="ActionDesign\Actions\SetFilter\ToolTip" xml:space="preserve">
+    <value>Filtr</value>
+  </data>
+  <data name="ActionDesign\Actions\ShowNavigationItem\ShortCaption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="ActionDesign\Actions\ShowNavigationItem\ToolTip" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="ActionDesign\Actions\NavigateForward\ShortCaption" xml:space="preserve">
+    <value>Do przodu</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_ViewItems_ListView\Columns\Item\Caption" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_DetailView\Items\Item\Caption" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_ListView\Columns\Item\Caption" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_LookupListView\Columns\Item\Caption" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Views\DashboardOrganizer_ViewItems_ListView\Columns\Item\Caption" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="ActionDesign\Actions\MergeAction\ShortCaption" xml:space="preserve">
+    <value>Scal</value>
+  </data>
+  <data name="ActionDesign\Actions\MergeAction\ToolTip" xml:space="preserve">
+    <value>Scal</value>
+  </data>
+  <data name="ActionDesign\Actions\Link\ShortCaption" xml:space="preserve">
+    <value>Połącz</value>
+  </data>
+  <data name="ActionDesign\Actions\Link\ToolTip" xml:space="preserve">
+    <value>Połącz</value>
+  </data>
+  <data name="ActionDesign\Actions\Diagnostic Info\ShortCaption" xml:space="preserve">
+    <value>Diagnostyka</value>
+  </data>
+  <data name="ActionDesign\Actions\Diagnostic Info\ToolTip" xml:space="preserve">
+    <value>Diagnostyka</value>
+  </data>
+  <data name="ActionDesign\Actions\Logon\ShortCaption" xml:space="preserve">
+    <value>Zaloguj się</value>
+  </data>
+  <data name="ActionDesign\Actions\Logon\ToolTip" xml:space="preserve">
+    <value>Zaloguj się</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_DetailView\Items\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_LookupListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\DisableReasons\AllowNew\Caption" xml:space="preserve">
+    <value>Dodawanie nie jest obsługiwane przez bieżący widok</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_LookupListView\Columns\ActionsToolbarVisibility\Caption" xml:space="preserve">
+    <value>Widoczność paska narzędzi</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_ListView\Columns\ActionsToolbarVisibility\Caption" xml:space="preserve">
+    <value>Widoczność paska narzędzi</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_DetailView\Items\ActionsToolbarVisibility\Caption" xml:space="preserve">
+    <value>Widoczność paska narzędzi</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ViewDashboardOrganizationItem\OwnMembers\ActionsToolbarVisibility\Caption" xml:space="preserve">
+    <value>Widoczność paska narzędzi</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Templates.ActionsToolbarVisibility\Value" xml:space="preserve">
+    <value>Widoczność paska narzędzi</value>
+  </data>
+  <data name="Views\AboutInfo_DetailView\Caption" xml:space="preserve">
+    <value>O programie…</value>
+  </data>
+  <data name="Non-calculated\Localization\Confirmations\Cancel\Value" xml:space="preserve">
+    <value>Czy chcesz anulować zmiany?</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Export\Caption" xml:space="preserve">
+    <value>Eksport do</value>
+  </data>
+  <data name="ActionDesign\Actions\CopyModelDifference\ToolTip" xml:space="preserve">
+    <value>Kopiuje ustawienia (różnice między modelami) od jednego użytkownika do drugiego. Wybierz ustawienia źródłowe (różnice między modelami), kliknij ten przycisk i wybierz cele w wywołanym oknie podręcznym. Zmiany zostaną aktywowane po ponownym uruchomieniu aplikacji przez użytkownika.</value>
+  </data>
+  <data name="ActionDesign\Actions\CreateModelDifferences\ToolTip" xml:space="preserve">
+    <value>Inicjuje ustawienia (różnice modeli) dla wszystkich użytkowników.</value>
+  </data>
+  <data name="ActionDesign\Actions\ExportModelDifferences\ToolTip" xml:space="preserve">
+    <value>Eksportuje wybrane ustawienia (różnice między modelami) do folderu {0}.</value>
+  </data>
+  <data name="ActionDesign\Actions\IgnoreCollisionAction\ToolTip" xml:space="preserve">
+    <value>Należy pamiętać, że zmiany, które nie powodują konfliktów, zostaną scalone, a aplikacja załaduje najnowsze zmiany z bazy danych.</value>
+  </data>
+  <data name="ActionDesign\Actions\ImportSharedModelDifference\ConfirmationMessage" xml:space="preserve">
+    <value>Zamierzasz nadpisać wspólne ustawienia (różnice między modelami) zawartością pliku {0}. Nie można tego cofnąć. Czy chcesz kontynuować?</value>
+  </data>
+  <data name="ActionDesign\Actions\ImportSharedModelDifference\ToolTip" xml:space="preserve">
+    <value>Importuje wspólne ustawienia (różnice między modelami) z pliku {0} znajdującego się w folderze aplikacji.</value>
+  </data>
+  <data name="ActionDesign\Actions\ReloadCollisionAction\ToolTip" xml:space="preserve">
+    <value>Należy pamiętać, że zmiany, które nie powodują konfliktów, zostaną scalone, a aplikacja załaduje najnowsze zmiany z bazy danych.</value>
+  </data>
+  <data name="ActionDesign\Actions\ResetModelDifferences\ConfirmationMessage" xml:space="preserve">
+    <value>Zamierzasz zresetować wybrane ustawienia (różnice między modelami). Czy chcesz kontynuować?</value>
+  </data>
+  <data name="ActionDesign\Actions\ResetModelDifferences\ToolTip" xml:space="preserve">
+    <value>Resetuje wybrane ustawienia (różnice między modelami). Zmiany zostaną zastosowane po ponownym uruchomieniu aplikacji przez użytkownika.</value>
+  </data>
+  <data name="ActionDesign\Actions\ResetViewSettings\ConfirmationMessage" xml:space="preserve">
+    <value>Zamierzasz zresetować wszystkie ustawienia widoku „{0}”. Czy chcesz kontynuować?</value>
+  </data>
+  <data name="ActionDesign\Actions\ResetViewSettings\ToolTip" xml:space="preserve">
+    <value>Resetuje wszystkie ustawienia widoku „{0}”.</value>
+  </data>
+  <data name="NavigationItems\Items\Reports\Caption" xml:space="preserve">
+    <value>Raporty</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\CopyModelDifference\Caption" xml:space="preserve">
+    <value>Kopiuj różnicę modelu</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\CreateModelDifferences\Caption" xml:space="preserve">
+    <value>Utwórz różnice w modelach</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\DeleteDashboard\Caption" xml:space="preserve">
+    <value>Usuń pulpit nawigacyjny</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Diagnostic Info.Actions Info\Caption" xml:space="preserve">
+    <value>Informacje diagnostyczne.Informacje o akcjach</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Diagnostic Info.View Info\Caption" xml:space="preserve">
+    <value>Diagnostic Info.View Info</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ExportModelDifferences\Caption" xml:space="preserve">
+    <value>Eksportuj różnice w modelach</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\IgnoreCollisionAction\Caption" xml:space="preserve">
+    <value>Zastosuj moje zmiany</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ImportSharedModelDifference\Caption" xml:space="preserve">
+    <value>Importuj różnice w modelach</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ReloadCollisionAction\Caption" xml:space="preserve">
+    <value>Zastosuj ich zmiany</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ResetModelDifferences\Caption" xml:space="preserve">
+    <value>Zresetuj różnice modeli</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ResetViewSettings\Caption" xml:space="preserve">
+    <value>Resetuj ustawienia widoku</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\DisableReasons\CanCreate\Caption" xml:space="preserve">
+    <value>Nie można utworzyć instancji obiektu</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\DisableReasons\IsModifiedObject\Caption" xml:space="preserve">
+    <value>Przed edycją tego rekordu musisz zapisać oczekujące zmiany</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\DisableReasons\UnsuitableType\Caption" xml:space="preserve">
+    <value>Nie można utworzyć nowego obiektu wybranego typu</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardCreationInfo\OwnMembers\NavigationGroupName\Caption" xml:space="preserve">
+    <value>Grupa nawigacji docelowej</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardCreationInfo\OwnMembers\ViewItems\Caption" xml:space="preserve">
+    <value>Wyświetl elementy</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardName\Caption" xml:space="preserve">
+    <value>Wybierz pulpity nawigacyjne do usunięcia</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardName\OwnMembers\ID\Caption" xml:space="preserve">
+    <value>Identyfikator</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardOrganizationItem\Caption" xml:space="preserve">
+    <value>Element organizacji pulpitu nawigacyjnego</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.Notifications.PostponeTime\OwnMembers\ID\Caption" xml:space="preserve">
+    <value>Identyfikator</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.Notifications.PostponeTime\OwnMembers\RemindIn\Caption" xml:space="preserve">
+    <value>Przypomnij w</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.Notifications.PostponeTime\OwnMembers\RemindInText\Caption" xml:space="preserve">
+    <value>Przypomnij w</value>
+  </data>
+  <data name="Non-calculated\Localization\Captions\DashboardView\Value" xml:space="preserve">
+    <value>DashboardView</value>
+  </data>
+  <data name="Non-calculated\Localization\Captions\DetailView\Value" xml:space="preserve">
+    <value>DetailView</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\AtStartTime\Value" xml:space="preserve">
+    <value>0 minut</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\EightHours\Value" xml:space="preserve">
+    <value>8 godzin</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\ElevenHours\Value" xml:space="preserve">
+    <value>11 godzin</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\FifteenMinutes\Value" xml:space="preserve">
+    <value>15 minut</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\FiveHours\Value" xml:space="preserve">
+    <value>5 godzin</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\FiveMinutes\Value" xml:space="preserve">
+    <value>5 minut</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\FourDays\Value" xml:space="preserve">
+    <value>4 dni</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\FourHours\Value" xml:space="preserve">
+    <value>4 godziny</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\HalfDay\Value" xml:space="preserve">
+    <value>0,5 dnia</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\NineHours\Value" xml:space="preserve">
+    <value>9 godzin</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\OneDay\Value" xml:space="preserve">
+    <value>1 dzień</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\OneHour\Value" xml:space="preserve">
+    <value>1 godzina</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\OneWeek\Value" xml:space="preserve">
+    <value>1 tydzień</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\SevenHours\Value" xml:space="preserve">
+    <value>7 godzin</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\SixHours\Value" xml:space="preserve">
+    <value>6 godzin</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\TenHours\Value" xml:space="preserve">
+    <value>10 godzin</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\TenMinutes\Value" xml:space="preserve">
+    <value>10 minut</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\ThirtyMinutes\Value" xml:space="preserve">
+    <value>30 minut</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\ThreeDays\Value" xml:space="preserve">
+    <value>3 dni</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\ThreeHours\Value" xml:space="preserve">
+    <value>3 godziny</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\TwoDays\Value" xml:space="preserve">
+    <value>2 dni</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\TwoHours\Value" xml:space="preserve">
+    <value>2 godziny</value>
+  </data>
+  <data name="Non-calculated\Localization\NotificationsPostponeTimesList\TwoWeeks\Value" xml:space="preserve">
+    <value>2 tygodnie</value>
+  </data>
+  <data name="Non-calculated\Localization\Texts\DefaultAspectText\Value" xml:space="preserve">
+    <value>(Domyślny język)</value>
+  </data>
+  <data name="Non-calculated\Localization\Texts\NullValueText\Value" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="Non-calculated\Localization\Texts\SharedModelDifferenceName\Value" xml:space="preserve">
+    <value>Udostępniony model różnic</value>
+  </data>
+  <data name="Non-calculated\Options\LayoutManagerOptions\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Non-calculated\Views\ProcessDataLockingInfoCustomMergeDialog_DetailView\Items\Message\Text" xml:space="preserve">
+    <value>Informacje, które próbujesz zapisać, zostały zmienione przez innego użytkownika. Aby rozwiązać konflikt zmian, wykonaj następujące czynności: - Zastosuj swoje zmiany do właściwości powodujących konflikt. - Zastosuj zmiany wprowadzone przez innego użytkownika do właściwości powodujących konflikt. - Odrzuć zmiany dla wszystkich właściwości. - Anuluj operację „Zapisz”.</value>
+  </data>
+  <data name="Non-calculated\Views\ProcessDataLockingInfoMergeDialog_DetailView\Items\Message\Text" xml:space="preserve">
+    <value>Informacje, które próbujesz zapisać, zostały zmienione przez innego użytkownika. Możesz scalić zmiany, odświeżyć dane i odrzucić swoje zmiany lub anulować operację zapisywania.</value>
+  </data>
+  <data name="Non-calculated\Views\ProcessDataLockingInfoRefreshDialog_DetailView\Items\Message\Text" xml:space="preserve">
+    <value>Informacje, które próbujesz zapisać, zostały zmienione przez innego użytkownika. Możesz odświeżyć dane i odrzucić zmiany lub anulować operację zapisywania.</value>
+  </data>
+  <data name="Views\ActionContainerDashboardOrganizationItem_DetailView\Caption" xml:space="preserve">
+    <value>Kontener akcji</value>
+  </data>
+  <data name="Views\ActionContainerDashboardOrganizationItem_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ActionContainerDashboardOrganizationItem_DetailView\Items\ActionContainer\Caption" xml:space="preserve">
+    <value>Kontener akcji</value>
+  </data>
+  <data name="Views\ActionContainerDashboardOrganizationItem_ListView\Caption" xml:space="preserve">
+    <value>Kontener akcji</value>
+  </data>
+  <data name="Views\ActionContainerDashboardOrganizationItem_ListView\Columns\ActionContainer\Caption" xml:space="preserve">
+    <value>Kontener akcji</value>
+  </data>
+  <data name="Views\ActionContainerDashboardOrganizationItem_LookupListView\Caption" xml:space="preserve">
+    <value>Kontener akcji</value>
+  </data>
+  <data name="Views\ActionContainerDashboardOrganizationItem_LookupListView\Columns\ActionContainer\Caption" xml:space="preserve">
+    <value>Kontener akcji</value>
+  </data>
+  <data name="Views\ActionContainerDescriptor_DetailView\Caption" xml:space="preserve">
+    <value>Deskryptor kontenera akcji</value>
+  </data>
+  <data name="Views\ActionContainerDescriptor_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ActionContainerDescriptor_DetailView\Items\ActionContainerId\Caption" xml:space="preserve">
+    <value>Identyfikator kontenera akcji</value>
+  </data>
+  <data name="Views\ActionContainerDescriptor_ListView\Caption" xml:space="preserve">
+    <value>Deskryptor kontenera akcji</value>
+  </data>
+  <data name="Views\ActionContainerDescriptor_ListView\Columns\ActionContainerId\Caption" xml:space="preserve">
+    <value>Identyfikator kontenera akcji</value>
+  </data>
+  <data name="Views\ActionContainerDescriptor_LookupListView\Caption" xml:space="preserve">
+    <value>Deskryptor kontenera akcji</value>
+  </data>
+  <data name="Views\ActionContainerDescriptor_LookupListView\Columns\ActionContainerId\Caption" xml:space="preserve">
+    <value>Identyfikator kontenera akcji</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_DetailView\Items\ViewItems\Caption" xml:space="preserve">
+    <value>Wyświetl elementy</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_ViewItems_ListView\Columns\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Views\DashboardName_DetailView\Caption" xml:space="preserve">
+    <value>Wybierz pulpit(y) nawigacyjne do usunięcia</value>
+  </data>
+  <data name="Views\DashboardName_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\DashboardName_DetailView\Items\ID\Caption" xml:space="preserve">
+    <value>Identyfikator</value>
+  </data>
+  <data name="Views\DashboardName_ListView\Caption" xml:space="preserve">
+    <value>Wybierz pulpit(y) nawigacyjne do usunięcia</value>
+  </data>
+  <data name="Views\DashboardName_ListView\Columns\ID\Caption" xml:space="preserve">
+    <value>Identyfikator</value>
+  </data>
+  <data name="Views\DashboardName_LookupListView\Caption" xml:space="preserve">
+    <value>Wybierz pulpit(y) nawigacyjne do usunięcia</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_DetailView\Items\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_ListView\Columns\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_LookupListView\Columns\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Views\DashboardOrganizer_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\DashboardOrganizer_DetailView\Layout\Main\ViewItems_Group\Caption" xml:space="preserve">
+    <value>Wyświetl elementy</value>
+  </data>
+  <data name="Views\DashboardOrganizer_ViewItems_ListView\Columns\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_DetailView\Items\ViewCaption\Caption" xml:space="preserve">
+    <value>Zobacz podpis</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_DetailView\Items\ViewDescription\Caption" xml:space="preserve">
+    <value>Zobacz opis</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_DetailView\Items\ViewId\Caption" xml:space="preserve">
+    <value>Identyfikator widoku</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_ListView\Columns\ViewCaption\Caption" xml:space="preserve">
+    <value>Zobacz podpis</value>
+  </data>
+  <data name="Views\DiagnosticInfoObject_DetailView\Caption" xml:space="preserve">
+    <value>Obiekt informacji diagnostycznych</value>
+  </data>
+  <data name="Views\DiagnosticInfoObject_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\DiagnosticInfoObject_DetailView\Items\AsText\Caption" xml:space="preserve">
+    <value>Jako tekst</value>
+  </data>
+  <data name="Views\DiagnosticInfoObject_ListView\Caption" xml:space="preserve">
+    <value>Obiekt informacji diagnostycznych</value>
+  </data>
+  <data name="Views\DiagnosticInfoObject_ListView\Columns\AsText\Caption" xml:space="preserve">
+    <value>Jako tekst</value>
+  </data>
+  <data name="Views\DiagnosticInfoObject_LookupListView\Caption" xml:space="preserve">
+    <value>Obiekt informacji diagnostycznych</value>
+  </data>
+  <data name="Views\DiagnosticInfoObject_LookupListView\Columns\AsText\Caption" xml:space="preserve">
+    <value>Jako tekst</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_DetailView\Layout\Main\TargetModelDifferences_Group\Caption" xml:space="preserve">
+    <value>Różnice w modelach docelowych</value>
+  </data>
+  <data name="Views\PostponeTime_DetailView\Items\RemindIn\Caption" xml:space="preserve">
+    <value>Przypomnij w</value>
+  </data>
+  <data name="Views\PostponeTime_DetailView\Items\RemindInText\Caption" xml:space="preserve">
+    <value>Przypomnij w</value>
+  </data>
+  <data name="Views\PostponeTime_ListView\Columns\RemindIn\Caption" xml:space="preserve">
+    <value>Przypomnij w</value>
+  </data>
+  <data name="Views\PostponeTime_ListView\Columns\RemindInText\Caption" xml:space="preserve">
+    <value>Przypomnij w</value>
+  </data>
+  <data name="Views\PostponeTime_LookupListView\Columns\RemindInText\Caption" xml:space="preserve">
+    <value>Przypomnij w</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MediumVioletRed\Value" xml:space="preserve">
+    <value>Średnia fioletowa czerwień</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MenuBar\Value" xml:space="preserve">
+    <value>Pasek menu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\RebeccaPurple\Value" xml:space="preserve">
+    <value>Fiolet Rebecki</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MediumSlateBlue\Value" xml:space="preserve">
+    <value>Średni łupkowy niebieski</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_LookupListView\Columns\ObjectType\Caption" xml:space="preserve">
+    <value>Typ obiektu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkKhaki\Value" xml:space="preserve">
+    <value>Ciemne khaki</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\GreenYellow\Value" xml:space="preserve">
+    <value>Zielonożółty</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ModelDifferenceCopyParameters\OwnMembers\CopyBehavior\Caption" xml:space="preserve">
+    <value>Zachowanie kopiowania</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Navy\Value" xml:space="preserve">
+    <value>Granatowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\AntiqueWhite\Value" xml:space="preserve">
+    <value>Antyczna biel</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MediumAquamarine\Value" xml:space="preserve">
+    <value>Średnia akwamaryna</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightGray\Value" xml:space="preserve">
+    <value>Jasny szary</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_ListView\Columns\CopyBehavior\Caption" xml:space="preserve">
+    <value>Zachowanie kopiowania</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkGoldenrod\Value" xml:space="preserve">
+    <value>Ciemny złotnik</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Red\Value" xml:space="preserve">
+    <value>Czerwony</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\InactiveCaption\Value" xml:space="preserve">
+    <value>Nieaktywny pasek tytułu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkOliveGreen\Value" xml:space="preserve">
+    <value>Ciemna oliwkowa zieleń</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_DetailView\Items\ObjectType\Caption" xml:space="preserve">
+    <value>Typ obiektu</value>
+  </data>
+  <data name="Non-calculated\Localization\Captions\ListView\Value" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkBlue\Value" xml:space="preserve">
+    <value>Ciemny niebieski</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_LookupListView\Columns\ViewDescription\Caption" xml:space="preserve">
+    <value>Opis widoku</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Chartreuse\Value" xml:space="preserve">
+    <value>Chartreuse</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\FloralWhite\Value" xml:space="preserve">
+    <value>Kwiatowa biel</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ControlDark\Value" xml:space="preserve">
+    <value>Ciemna kontrolka</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\GradientInactiveCaption\Value" xml:space="preserve">
+    <value>Gradient nieaktywnego paska tytułu</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_ListView\Columns\ImageName\Caption" xml:space="preserve">
+    <value>Nazwa obrazu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Snow\Value" xml:space="preserve">
+    <value>Śnieg</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Cyan\Value" xml:space="preserve">
+    <value>Cyjan</value>
+  </data>
+  <data name="Views\DashboardOrganizer_ViewItems_ListView\Caption" xml:space="preserve">
+    <value>Element organizacji dashboardu</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_ListView\Columns\ViewId\Caption" xml:space="preserve">
+    <value>ID widoku</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.ModelDifferenceCopyBehavior\Overwrite\Value" xml:space="preserve">
+    <value>Nadpisz</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.DashboardViewItemDescriptor\Caption" xml:space="preserve">
+    <value>Deskryptor elementu dashboardu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Ivory\Value" xml:space="preserve">
+    <value>Kość słoniowa</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ModelDifferenceCopyParameters\OwnMembers\SourceModelDifference\Caption" xml:space="preserve">
+    <value>Źródłowa różnica modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\PowderBlue\Value" xml:space="preserve">
+    <value>Pudrowy niebieski</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ModelDifferenceCopyParameters\OwnMembers\TargetModelDifferences\Caption" xml:space="preserve">
+    <value>Docelowe różnice modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkGreen\Value" xml:space="preserve">
+    <value>Ciemny zielony</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_LookupListView\Columns\SourceModelDifference\Caption" xml:space="preserve">
+    <value>Źródłowa różnica modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ActiveBorder\Value" xml:space="preserve">
+    <value>Aktywna ramka</value>
+  </data>
+  <data name="Non-calculated\Localization\Captions\DiagnosticChildWindowAddition\Value" xml:space="preserve">
+    <value>(Okno podrzędne)</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ControlLightLight\Value" xml:space="preserve">
+    <value>Bardzo jasna kontrolka</value>
+  </data>
+  <data name="Views\ProcessDataLockingInfoMergeDialog_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\GradientActiveCaption\Value" xml:space="preserve">
+    <value>Gradient aktywnego paska tytułu</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_DetailView\Items\CopyBehavior\Caption" xml:space="preserve">
+    <value>Zachowanie kopiowania</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_ListView\Columns\ViewDescription\Caption" xml:space="preserve">
+    <value>Opis widoku</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ButtonShadow\Value" xml:space="preserve">
+    <value>Cień przycisku</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\OrangeRed\Value" xml:space="preserve">
+    <value>Pomarańczowoczerwony</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\SkyBlue\Value" xml:space="preserve">
+    <value>Błękit nieba</value>
+  </data>
+  <data name="Views\PostponeTime_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MintCream\Value" xml:space="preserve">
+    <value>Miętowy krem</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkCyan\Value" xml:space="preserve">
+    <value>Ciemny cyjan</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LavenderBlush\Value" xml:space="preserve">
+    <value>Blady lawendowy</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkOrange\Value" xml:space="preserve">
+    <value>Ciemny pomarańczowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Salmon\Value" xml:space="preserve">
+    <value>Łososiowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\SeaGreen\Value" xml:space="preserve">
+    <value>Morska zieleń</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\PapayaWhip\Value" xml:space="preserve">
+    <value>Bita śmietana papai</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Lime\Value" xml:space="preserve">
+    <value>Limonkowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Menu\Value" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Khaki\Value" xml:space="preserve">
+    <value>Khaki</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_LookupListView\Caption" xml:space="preserve">
+    <value>Deskryptor elementu dashboardu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\SandyBrown\Value" xml:space="preserve">
+    <value>Piaskowożółty</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Indigo\Value" xml:space="preserve">
+    <value>Indygo</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Goldenrod\Value" xml:space="preserve">
+    <value>Złotnik</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DimGray\Value" xml:space="preserve">
+    <value>Przyciemniony szary</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\SteelBlue\Value" xml:space="preserve">
+    <value>Stalowy niebieski</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\InfoText\Value" xml:space="preserve">
+    <value>Tekst dymka</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Tomato\Value" xml:space="preserve">
+    <value>Pomidorowy</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_ViewItems_ListView\Caption" xml:space="preserve">
+    <value>Element organizacji dashboardu</value>
+  </data>
+  <data name="Views\ProcessDataLockingInfoCustomMergeDialog_DetailView\Caption" xml:space="preserve">
+    <value>Ostrzeżenie</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MediumPurple\Value" xml:space="preserve">
+    <value>Średni fiolet</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Olive\Value" xml:space="preserve">
+    <value>Oliwkowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Orange\Value" xml:space="preserve">
+    <value>Pomarańczowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\HighlightText\Value" xml:space="preserve">
+    <value>Tekst zaznaczenia</value>
+  </data>
+  <data name="Views\DashboardOrganizer_ListView\Caption" xml:space="preserve">
+    <value>Organizator dashboardu</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_DetailView\Caption" xml:space="preserve">
+    <value>Kreator dashboardu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MediumSeaGreen\Value" xml:space="preserve">
+    <value>Średnia morska zieleń</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightCyan\Value" xml:space="preserve">
+    <value>Jasny cyjan</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ActiveCaption\Value" xml:space="preserve">
+    <value>Aktywny pasek tytułu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\AppWorkspace\Value" xml:space="preserve">
+    <value>Obszar roboczy aplikacji</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightGoldenrodYellow\Value" xml:space="preserve">
+    <value>Jasny żółtawozłoty</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Fuchsia\Value" xml:space="preserve">
+    <value>Fuksja</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Linen\Value" xml:space="preserve">
+    <value>Lniany</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_LookupListView\Columns\CopyBehavior\Caption" xml:space="preserve">
+    <value>Zachowanie kopiowania</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LimeGreen\Value" xml:space="preserve">
+    <value>Limonkowa zieleń</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\SpringGreen\Value" xml:space="preserve">
+    <value>Wiosenna zieleń</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Purple\Value" xml:space="preserve">
+    <value>Fioletowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Orchid\Value" xml:space="preserve">
+    <value>Orchidea</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.StaticImageDashboardOrganizationItem\OwnMembers\SvgImageHeight\Caption" xml:space="preserve">
+    <value>Wysokość obrazu SVG</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Pink\Value" xml:space="preserve">
+    <value>Różowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Coral\Value" xml:space="preserve">
+    <value>Koral</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightGreen\Value" xml:space="preserve">
+    <value>Jasny zielony</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\RosyBrown\Value" xml:space="preserve">
+    <value>Różowobrązowy</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_DetailView\Caption" xml:space="preserve">
+    <value>Deskryptor elementu dashboardu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MediumOrchid\Value" xml:space="preserve">
+    <value>Średnia orchidea</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightBlue\Value" xml:space="preserve">
+    <value>Jasny niebieski</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkRed\Value" xml:space="preserve">
+    <value>Ciemny czerwony</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\DashboardOrganizer_DetailView\Caption" xml:space="preserve">
+    <value>Organizator dashboardu</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_DetailView\Items\SvgImageWidth\Caption" xml:space="preserve">
+    <value>Szerokość obrazu SVG</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DodgerBlue\Value" xml:space="preserve">
+    <value>Niebieski Dodger</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Aquamarine\Value" xml:space="preserve">
+    <value>Akwamaryna</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkSlateBlue\Value" xml:space="preserve">
+    <value>Ciemny łupkowy niebieski</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkSalmon\Value" xml:space="preserve">
+    <value>Ciemny łosoś</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Desktop\Value" xml:space="preserve">
+    <value>Pulpit</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\CadetBlue\Value" xml:space="preserve">
+    <value>Niebieski kadet</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MenuHighlight\Value" xml:space="preserve">
+    <value>Podświetlenie menu</value>
+  </data>
+  <data name="Views\PostponeTime_DetailView\Caption" xml:space="preserve">
+    <value>Czas odroczenia</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_DetailView\Caption" xml:space="preserve">
+    <value>Kopiuj różnice modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MistyRose\Value" xml:space="preserve">
+    <value>Mglista róża</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkGray\Value" xml:space="preserve">
+    <value>Ciemny szary</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Honeydew\Value" xml:space="preserve">
+    <value>Spadź</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\SlateBlue\Value" xml:space="preserve">
+    <value>Łupkowy niebieski</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Value" xml:space="preserve">
+    <value>Znany kolor</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\OliveDrab\Value" xml:space="preserve">
+    <value>Ciemna oliwka</value>
+  </data>
+  <data name="Views\PostponeTime_LookupListView\Caption" xml:space="preserve">
+    <value>Czas odroczenia</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\PaleGreen\Value" xml:space="preserve">
+    <value>Blada zieleń</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\GhostWhite\Value" xml:space="preserve">
+    <value>Upiorna biel</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkOrchid\Value" xml:space="preserve">
+    <value>Ciemna orchidea</value>
+  </data>
+  <data name="Views\DashboardOrganizer_DetailView\Items\ViewItems\Caption" xml:space="preserve">
+    <value>Elementy widoku</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_ListView\Caption" xml:space="preserve">
+    <value>Kopiuj różnice modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Gray\Value" xml:space="preserve">
+    <value>Szary</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_DetailView\Caption" xml:space="preserve">
+    <value>Element organizacji dashboardu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\InactiveCaptionText\Value" xml:space="preserve">
+    <value>Tekst nieaktywnego paska tytułu</value>
+  </data>
+  <data name="Views\ProcessDataLockingInfoCustomMergeDialog_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\SeaShell\Value" xml:space="preserve">
+    <value>Muszla morska</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MediumTurquoise\Value" xml:space="preserve">
+    <value>Średni turkus</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Beige\Value" xml:space="preserve">
+    <value>Beżowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Info\Value" xml:space="preserve">
+    <value>Dymek</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\YellowGreen\Value" xml:space="preserve">
+    <value>Żółtozielony</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Teal\Value" xml:space="preserve">
+    <value>Morski</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_ListView\Columns\NavigationGroupName\Caption" xml:space="preserve">
+    <value>Docelowa grupa nawigacji</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkMagenta\Value" xml:space="preserve">
+    <value>Ciemna magenta</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Peru\Value" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.Notifications.PostponeTime\Caption" xml:space="preserve">
+    <value>Czas odroczenia</value>
+  </data>
+  <data name="Views\DashboardViewItemDescriptor_ListView\Caption" xml:space="preserve">
+    <value>Deskryptor elementu dashboardu</value>
+  </data>
+  <data name="Views\PostponeTime_DetailView\Items\ID\Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Sienna\Value" xml:space="preserve">
+    <value>Sjenna</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkViolet\Value" xml:space="preserve">
+    <value>Ciemny fiolet</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ScrollBar\Value" xml:space="preserve">
+    <value>Pasek przewijania</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ButtonFace\Value" xml:space="preserve">
+    <value>Powierzchnia przycisku</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightSlateGray\Value" xml:space="preserve">
+    <value>Jasny łupkowy szary</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\HotTrack\Value" xml:space="preserve">
+    <value>Aktywny ślad</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightYellow\Value" xml:space="preserve">
+    <value>Jasny żółty</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LemonChiffon\Value" xml:space="preserve">
+    <value>Cytrynowy szyfon</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_DetailView\Items\ImageName\Caption" xml:space="preserve">
+    <value>Nazwa obrazu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightSkyBlue\Value" xml:space="preserve">
+    <value>Jasny błękit nieba</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkSlateGray\Value" xml:space="preserve">
+    <value>Ciemny łupkowy szary</value>
+  </data>
+  <data name="Views\StaticTextDashboardOrganizationItem_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_LookupListView\Caption" xml:space="preserve">
+    <value>Statyczny obraz</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Turquoise\Value" xml:space="preserve">
+    <value>Turkusowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ControlDarkDark\Value" xml:space="preserve">
+    <value>Bardzo ciemna kontrolka</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\AliceBlue\Value" xml:space="preserve">
+    <value>Błękit Alice</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\OldLace\Value" xml:space="preserve">
+    <value>Stara koronka</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_ListView\Caption" xml:space="preserve">
+    <value>Statyczny obraz</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\WindowText\Value" xml:space="preserve">
+    <value>Tekst okna</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_ListView\Caption" xml:space="preserve">
+    <value>Kreator dashboardu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Gainsboro\Value" xml:space="preserve">
+    <value>Gainsboro</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\PaleVioletRed\Value" xml:space="preserve">
+    <value>Blada fioletowoczerwień</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Silver\Value" xml:space="preserve">
+    <value>Srebrny</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Control\Value" xml:space="preserve">
+    <value>Kontrolka</value>
+  </data>
+  <data name="Views\PostponeTime_ListView\Columns\ID\Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_ListView\Columns\SourceModelDifference\Caption" xml:space="preserve">
+    <value>Źródłowa różnica modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\GrayText\Value" xml:space="preserve">
+    <value>Szary tekst</value>
+  </data>
+  <data name="Views\StaticTextDashboardOrganizationItem_ListView\Caption" xml:space="preserve">
+    <value>Statyczny tekst</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Firebrick\Value" xml:space="preserve">
+    <value>Cegła ognista</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightSteelBlue\Value" xml:space="preserve">
+    <value>Jasny stalowy niebieski</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Maroon\Value" xml:space="preserve">
+    <value>Kasztanowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LawnGreen\Value" xml:space="preserve">
+    <value>Trawiasty</value>
+  </data>
+  <data name="Views\ProcessDataLockingInfoRefreshDialog_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ActiveCaptionText\Value" xml:space="preserve">
+    <value>Tekst aktywnego paska tytułu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkTurquoise\Value" xml:space="preserve">
+    <value>Ciemny turkus</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Yellow\Value" xml:space="preserve">
+    <value>Żółty</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_LookupListView\Caption" xml:space="preserve">
+    <value>Element organizacji dashboardu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\PaleTurquoise\Value" xml:space="preserve">
+    <value>Blady turkus</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Wheat\Value" xml:space="preserve">
+    <value>Pszeniczny</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_LookupListView\Caption" xml:space="preserve">
+    <value>Kreator dashboardu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\NavajoWhite\Value" xml:space="preserve">
+    <value>Biały Navajo</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MenuText\Value" xml:space="preserve">
+    <value>Tekst menu</value>
+  </data>
+  <data name="Views\DashboardOrganizationItem_ListView\Caption" xml:space="preserve">
+    <value>Element organizacji dashboardu</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.ModelDifferenceCopyParameters\Caption" xml:space="preserve">
+    <value>Kopiuj różnice modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MidnightBlue\Value" xml:space="preserve">
+    <value>Niebieski północy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\WindowFrame\Value" xml:space="preserve">
+    <value>Ramka okna</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\BurlyWood\Value" xml:space="preserve">
+    <value>Drzewo jesionowe</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Azure\Value" xml:space="preserve">
+    <value>Lazur</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\IndianRed\Value" xml:space="preserve">
+    <value>Indyjski czerwony</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\PeachPuff\Value" xml:space="preserve">
+    <value>Brzoskwiniowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Highlight\Value" xml:space="preserve">
+    <value>Zaznaczenie</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ControlText\Value" xml:space="preserve">
+    <value>Tekst kontrolki</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\TagBoxListCannotEditWarning\Value" xml:space="preserve">
+    <value>Musisz najpierw zapisać tagi, aby móc je edytować.</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\PaleGoldenrod\Value" xml:space="preserve">
+    <value>Blady złotnik</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_LookupListView\Caption" xml:space="preserve">
+    <value>Kopiuj różnice modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Cornsilk\Value" xml:space="preserve">
+    <value>Jedwab kukurydziany</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Bisque\Value" xml:space="preserve">
+    <value>Biszkopt</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DeepPink\Value" xml:space="preserve">
+    <value>Głęboki róż</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Lavender\Value" xml:space="preserve">
+    <value>Lawenda</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\HotPink\Value" xml:space="preserve">
+    <value>Gorący róż</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\WhiteSmoke\Value" xml:space="preserve">
+    <value>Biały dym</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Aqua\Value" xml:space="preserve">
+    <value>Aqua</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Black\Value" xml:space="preserve">
+    <value>Czarny</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Moccasin\Value" xml:space="preserve">
+    <value>Mokasyn</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\InactiveBorder\Value" xml:space="preserve">
+    <value>Nieaktywna ramka</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Violet\Value" xml:space="preserve">
+    <value>Fioletowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ButtonHighlight\Value" xml:space="preserve">
+    <value>Podświetlenie przycisku</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\SaddleBrown\Value" xml:space="preserve">
+    <value>Brąz siodła</value>
+  </data>
+  <data name="Views\DashboardCreationInfo_DetailView\Items\NavigationGroupName\Caption" xml:space="preserve">
+    <value>Docelowa grupa nawigacji</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_DetailView\Caption" xml:space="preserve">
+    <value>Statyczny obraz</value>
+  </data>
+  <data name="Non-calculated\Localization\DashboardOrganizationItems\ActionContainer\Value" xml:space="preserve">
+    <value>Kontener akcji</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Gold\Value" xml:space="preserve">
+    <value>Złoty</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\RoyalBlue\Value" xml:space="preserve">
+    <value>Królewski niebieski</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DeepSkyBlue\Value" xml:space="preserve">
+    <value>Głęboki błękit nieba</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightSeaGreen\Value" xml:space="preserve">
+    <value>Jasna morska zieleń</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ForestGreen\Value" xml:space="preserve">
+    <value>Leśna zieleń</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Crimson\Value" xml:space="preserve">
+    <value>Karmazyn</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_DetailView\Items\SvgImageHeight\Caption" xml:space="preserve">
+    <value>Wysokość obrazu SVG</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Window\Value" xml:space="preserve">
+    <value>Okno</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MediumBlue\Value" xml:space="preserve">
+    <value>Średni niebieski</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_LookupListView\Columns\ImageName\Caption" xml:space="preserve">
+    <value>Nazwa obrazu</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.SystemModule.StaticImageDashboardOrganizationItem\OwnMembers\SvgImageWidth\Caption" xml:space="preserve">
+    <value>Szerokość obrazu SVG</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Magenta\Value" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\BlueViolet\Value" xml:space="preserve">
+    <value>Niebieskofioletowy</value>
+  </data>
+  <data name="Views\StaticTextDashboardOrganizationItem_DetailView\Caption" xml:space="preserve">
+    <value>Statyczny tekst</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_ListView\Columns\SvgImageHeight\Caption" xml:space="preserve">
+    <value>Wysokość SVG</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightPink\Value" xml:space="preserve">
+    <value>Jasny róż</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Plum\Value" xml:space="preserve">
+    <value>Śliwkowy</value>
+  </data>
+  <data name="Views\PostponeTime_ListView\Caption" xml:space="preserve">
+    <value>Czas odroczenia</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\DarkSeaGreen\Value" xml:space="preserve">
+    <value>Ciemna morska zieleń</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Thistle\Value" xml:space="preserve">
+    <value>Oset</value>
+  </data>
+  <data name="Views\ViewDashboardOrganizationItem_ListView\Columns\ObjectType\Caption" xml:space="preserve">
+    <value>Typ obiektu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Blue\Value" xml:space="preserve">
+    <value>Niebieski</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\SlateGray\Value" xml:space="preserve">
+    <value>Łupkowy szary</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\CornflowerBlue\Value" xml:space="preserve">
+    <value>Chabry</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Transparent\Value" xml:space="preserve">
+    <value>Przezroczysty</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightCoral\Value" xml:space="preserve">
+    <value>Jasny koral</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\White\Value" xml:space="preserve">
+    <value>Biały</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_DetailView\Items\SourceModelDifference\Caption" xml:space="preserve">
+    <value>Źródłowa różnica modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\BlanchedAlmond\Value" xml:space="preserve">
+    <value>Blanszowany migdał</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Chocolate\Value" xml:space="preserve">
+    <value>Czekoladowy</value>
+  </data>
+  <data name="Views\DashboardOrganizer_LookupListView\Caption" xml:space="preserve">
+    <value>Organizator dashboardu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\MediumSpringGreen\Value" xml:space="preserve">
+    <value>Średnia wiosenna zieleń</value>
+  </data>
+  <data name="Views\StaticTextDashboardOrganizationItem_LookupListView\Caption" xml:space="preserve">
+    <value>Statyczny tekst</value>
+  </data>
+  <data name="Views\ModelDifferenceCopyParameters_DetailView\Items\TargetModelDifferences\Caption" xml:space="preserve">
+    <value>Docelowe różnice modelu</value>
+  </data>
+  <data name="Non-calculated\Localization\Captions\LogInWithActionCaption\Value" xml:space="preserve">
+    <value>Zaloguj przez</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Tan\Value" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\LightSalmon\Value" xml:space="preserve">
+    <value>Jasny łosoś</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Green\Value" xml:space="preserve">
+    <value>Zielony</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\Brown\Value" xml:space="preserve">
+    <value>Brązowy</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.ModelDifferenceCopyBehavior\Value" xml:space="preserve">
+    <value>Zachowanie kopiowania różnicy modelu</value>
+  </data>
+  <data name="Views\StaticImageDashboardOrganizationItem_ListView\Columns\SvgImageWidth\Caption" xml:space="preserve">
+    <value>Szerokość SVG</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.KnownColor\ControlLight\Value" xml:space="preserve">
+    <value>Jasna kontrolka</value>
+  </data>
+</root>

@@ -1,0 +1,957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Non-calculated\ActionDesign\Actions\ChangePasswordByUser\Caption" xml:space="preserve">
+    <value>Zmień hasło</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\MyDetails\Caption" xml:space="preserve">
+    <value>Mój profil</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ResetPassword\Caption" xml:space="preserve">
+    <value>Resetuj hasło</value>
+  </data>
+  <data name="ActionDesign\Actions\ResetPassword\ToolTip" xml:space="preserve">
+    <value>Generuj nowe hasło dla wybranego użytkownika</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters\Caption" xml:space="preserve">
+    <value>Parametry logowania autentykacji standardowej</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters\OwnMembers\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters\OwnMembers\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ChangePasswordOnLogonParameters\Caption" xml:space="preserve">
+    <value>Parametry zmiany hasła przy logowaniu</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ChangePasswordOnLogonParameters\OwnMembers\NewPassword\Caption" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ChangePasswordOnLogonParameters\OwnMembers\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ChangePasswordParameters\Caption" xml:space="preserve">
+    <value>Parametry zmiany hasła</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ChangePasswordParameters\OwnMembers\OldPassword\Caption" xml:space="preserve">
+    <value>Stare hasło</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.EditModelPermission\Caption" xml:space="preserve">
+    <value>Uprawnienie Edytowania modelu aplikacji</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ObjectAccessPermission\OwnMembers\CreateAccess\Caption" xml:space="preserve">
+    <value>Prawo tworzenia</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ObjectAccessPermission\OwnMembers\ReadAccess\Caption" xml:space="preserve">
+    <value>Prawo odczytu</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ObjectAccessPermission\OwnMembers\WriteAccess\Caption" xml:space="preserve">
+    <value>Prawo zapisu</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ObjectAccessPermission\OwnMembers\DeleteAccess\Caption" xml:space="preserve">
+    <value>Prawo usuwania</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ObjectAccessPermission\OwnMembers\NavigateAccess\Caption" xml:space="preserve">
+    <value>Prawo nawigacji</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ResetPasswordParameters\Caption" xml:space="preserve">
+    <value>Parametry resetowania hasła</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ResetPasswordParameters\OwnMembers\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ModelAccessModifier\Allow\Value" xml:space="preserve">
+    <value>Pozwolenie</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ModelAccessModifier\Deny\Value" xml:space="preserve">
+    <value>Odmowa</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Value" xml:space="preserve">
+    <value>Dostęp do obiektu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\AllAccess\Value" xml:space="preserve">
+    <value>Pełny dostęp</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\ChangeAccess\Value" xml:space="preserve">
+    <value>Zmień dostęp</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Create\Value" xml:space="preserve">
+    <value>Tworzenie</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Delete\Value" xml:space="preserve">
+    <value>Usuwanie</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Navigate\Value" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\NoAccess\Value" xml:space="preserve">
+    <value>Brak dostępu</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Read\Value" xml:space="preserve">
+    <value>Odczyt</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Write\Value" xml:space="preserve">
+    <value>Zapis</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccessModifier\Allow\Value" xml:space="preserve">
+    <value>Pozwolenie</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccessModifier\Deny\Value" xml:space="preserve">
+    <value>Odmowa</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccessModifier\None\Value" xml:space="preserve">
+    <value>Nic</value>
+  </data>
+  <data name="Non-calculated\Localization\Exceptions\CanNotDeleteObject\Value" xml:space="preserve">
+    <value>Nie możesz usunąć '{0}' z powodu braku uprawnień.</value>
+  </data>
+  <data name="Non-calculated\Localization\Exceptions\CanNotSaveObject\Value" xml:space="preserve">
+    <value>Nie możesz zapisać '{0}' z powodu braku uprawnień.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\Create\Value" xml:space="preserve">
+    <value>Tworzenie</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\Delete\Value" xml:space="preserve">
+    <value>Usuwanie</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\IsGrantedFrom\Value" xml:space="preserve">
+    <value>jest nadane od członka klasy '{0}'.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\IsInheritedFrom\Value" xml:space="preserve">
+    <value>jest dziedziczona z klasy '{0}'.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\Navigate\Value" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\Read\Value" xml:space="preserve">
+    <value>Odczyt</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\Write\Value" xml:space="preserve">
+    <value>Zapis</value>
+  </data>
+  <data name="NavigationItems\Items\Default\Items\MyDetails\Caption" xml:space="preserve">
+    <value>Mój profil</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_DetailView\Caption" xml:space="preserve">
+    <value>Zaloguj</value>
+  </data>
+  <data name="Non-calculated\Views\AuthenticationStandardLogonParameters_DetailView\Items\LogonText\Text" xml:space="preserve">
+    <value>Witamy! Proszę wprowadzić swoją nazwę użytkownika i hasło.</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_DetailView\Caption" xml:space="preserve">
+    <value>Zmień hasło przy pierwszym zalogowaniu</value>
+  </data>
+  <data name="Non-calculated\Views\ChangePasswordOnLogonParameters_DetailView\Items\ChangePasswordText\Text" xml:space="preserve">
+    <value>Ze względów bezpieczeństwa, należy teraz ustawić własne hasło. Wpisz nowe hasło w obu polach tekstowych poniżej.</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\Caption" xml:space="preserve">
+    <value>Zmień hasło</value>
+  </data>
+  <data name="Non-calculated\Views\ChangePasswordParameters_DetailView\Items\ChangePasswordText\Text" xml:space="preserve">
+    <value>Aby zmienić hasło, wpisz stare i nowe hasło w polach tekstowych poniżej.</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_DetailView\Caption" xml:space="preserve">
+    <value>Resetuj hasło</value>
+  </data>
+  <data name="Non-calculated\Views\ResetPasswordParameters_DetailView\Items\ResetPasswordText\Text" xml:space="preserve">
+    <value>Ustawianie hasła użytkownika spowoduje automatyczne utworzenie nowego hasła dla użytkownika i jednocześne wyłączenie starego hasła. Następnie należy przekazać nowe hasło użytkownikowi, tak aby on/ona mogli kontynuować pracę z aplikacją. Czy jesteś pewien, że chcesz to zrobić?</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemRoleBase\OwnMembers\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUserBase\OwnMembers\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\EffectiveNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUser\Caption" xml:space="preserve">
+    <value>Użytkownik</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUserBase\OwnMembers\ChangePasswordOnFirstLogon\Caption" xml:space="preserve">
+    <value>Zmień hasło przy pierwszym logowaniu</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUserBase\OwnMembers\IsActive\Caption" xml:space="preserve">
+    <value>Jest aktywny</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\AllowDelete\Caption" xml:space="preserve">
+    <value>Zezwalaj na usuwanie</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Zezwalaj na usuwanie</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Zezwalaj na usuwanie</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\AllowDelete\Caption" xml:space="preserve">
+    <value>Zezwalaj na usuwanie</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Zezwalaj na usuwanie</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Uprawnienia do obiektów</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Layout\Main\Tabs\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Uprawnienia do obiektów</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Uprawnienia do obiektów</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Layout\Main\Tabs\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Uprawnienia do obiektów</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Uprawnienia do obiektów</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Layout\Main\Tabs\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Uprawnienia do obiektów</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Uprawnienia do obiektów</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Uprawnienia do obiektów</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_LookupListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Views\SecuritySystemRole_ChildRoles_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\Items\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\SecuritySystemRole_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\SecuritySystemRole_LookupListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\SecuritySystemRole_ParentRoles_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_DetailView\Items\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_LookupListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\SecuritySystemUser_Roles_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_DetailView\Items\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_ListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_LookupListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\SecuritySystemRole_Users_ListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\Items\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\SecuritySystemUser_ListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\SecuritySystemUser_LookupListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_DetailView\Items\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_ListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_LookupListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\EffectiveNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\EffectiveNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\EffectiveNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Columns\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Columns\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Columns\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_LookupListView\Columns\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\EffectiveNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Columns\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView\Columns\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Columns\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Columns\AllowNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\EffectiveNavigate\Caption" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_DetailView\Items\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_LookupListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_LookupListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="NavigationItems\Items\Default\Items\SecuritySystemUser_ListView\Caption" xml:space="preserve">
+    <value>Użytkownik</value>
+  </data>
+  <data name="Views\SecuritySystemRole_Users_ListView\Caption" xml:space="preserve">
+    <value>Użytkownik</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\Caption" xml:space="preserve">
+    <value>Użytkownik</value>
+  </data>
+  <data name="Views\SecuritySystemUser_ListView\Caption" xml:space="preserve">
+    <value>Użytkownik</value>
+  </data>
+  <data name="Views\SecuritySystemUser_LookupListView\Caption" xml:space="preserve">
+    <value>Użytkownik</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_DetailView\Items\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_LookupListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Kryteria</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Zezwalaj na usuwanie</value>
+  </data>
+  <data name="Views\SecuritySystemRole_Users_ListView\Columns\ChangePasswordOnFirstLogon\Caption" xml:space="preserve">
+    <value>Zmień hasło przy pierwszym logowaniu</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\Items\ChangePasswordOnFirstLogon\Caption" xml:space="preserve">
+    <value>Zmień hasło przy pierwszym logowaniu</value>
+  </data>
+  <data name="Views\SecuritySystemUser_ListView\Columns\ChangePasswordOnFirstLogon\Caption" xml:space="preserve">
+    <value>Zmień hasło przy pierwszym logowaniu</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_DetailView\Items\ChangePasswordOnFirstLogon\Caption" xml:space="preserve">
+    <value>Zmień hasło przy pierwszym logowaniu</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_ListView\Columns\ChangePasswordOnFirstLogon\Caption" xml:space="preserve">
+    <value>Zmień hasło przy pierwszym logowaniu</value>
+  </data>
+  <data name="Views\SecuritySystemRole_Users_ListView\Columns\IsActive\Caption" xml:space="preserve">
+    <value>Jest aktywny</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\Items\IsActive\Caption" xml:space="preserve">
+    <value>Jest aktywny</value>
+  </data>
+  <data name="Views\SecuritySystemUser_ListView\Columns\IsActive\Caption" xml:space="preserve">
+    <value>Jest aktywny</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_DetailView\Items\IsActive\Caption" xml:space="preserve">
+    <value>Jest aktywny</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_ListView\Columns\IsActive\Caption" xml:space="preserve">
+    <value>Jest aktywny</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\AllowRead\Caption" xml:space="preserve">
+    <value>Zezwalaj na odczyt</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.SecurityRequestOperations\Delete\Value" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.SecurityRequestOperations\Write\Value" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\Diagnostic\Caption" xml:space="preserve">
+    <value>Diagnostyczny</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\Edit\Caption" xml:space="preserve">
+    <value>Edytuj</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\Export\Caption" xml:space="preserve">
+    <value>Eksport</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\Filters\Caption" xml:space="preserve">
+    <value>Filtry</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\FullTextSearch\Caption" xml:space="preserve">
+    <value>Wyszukiwanie pełnotekstowe</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\Link\Caption" xml:space="preserve">
+    <value>Połącz</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\ListView\Caption" xml:space="preserve">
+    <value>Widok listy</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\None\Caption" xml:space="preserve">
+    <value>Brak</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\ObjectsCreation\Caption" xml:space="preserve">
+    <value>Tworzenie obiektów</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\PopupActions\Caption" xml:space="preserve">
+    <value>Wyskakujące okienka</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\RecordsNavigation\Caption" xml:space="preserve">
+    <value>Nawigacja po rekordach</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\Save\Caption" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\Security\Caption" xml:space="preserve">
+    <value>Bezpieczeństwo</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\Tools\Caption" xml:space="preserve">
+    <value>Narzędzia</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\UndoRedo\Caption" xml:space="preserve">
+    <value>CofnijPonów</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\View\Caption" xml:space="preserve">
+    <value>Widok</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\ViewsHistoryNavigation\Caption" xml:space="preserve">
+    <value>WidokiHistoriaNawigacja</value>
+  </data>
+  <data name="ActionDesign\ActionToContainerMapping\ViewsNavigation\Caption" xml:space="preserve">
+    <value>WidokiNawigacja</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyMemberPermissionsObject\OwnMembers\Members\NullText" xml:space="preserve">
+    <value>Wybierz członków</value>
+  </data>
+  <data name="NavigationItems\Items\Default\Items\PermissionPolicyRole_ListView\Caption" xml:space="preserve">
+    <value>Rola</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.SecurityRequestOperations\Create\Value" xml:space="preserve">
+    <value>Tworzenie</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.SecurityRequestOperations\Read\Value" xml:space="preserve">
+    <value>Czytanie</value>
+  </data>
+  <data name="Non-calculated\Localization\Exceptions\UserHasNoRole\Value" xml:space="preserve">
+    <value>Nieprawidłowe ustawienia konta: użytkownikowi nie przypisano żadnej roli. Skontaktuj się z administratorem.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\CurrentUserHasBeenDeleted\Value" xml:space="preserve">
+    <value>Konto użytkownika już nie istnieje. Skontaktuj się z administratorem, aby uzyskać pomoc.</value>
+  </data>
+  <data name="Non-calculated\Localization\Security\AllBusinessClasses\Value" xml:space="preserve">
+    <value>Wszystkie klasy biznesowe</value>
+  </data>
+  <data name="Non-calculated\Localization\Security\AllPersistentBusinessClasses\Value" xml:space="preserve">
+    <value>Wszystkie klasy biznes trwałe</value>
+  </data>
+  <data name="Non-calculated\Localization\Security\ProtectedContentToolTip\Value" xml:space="preserve">
+    <value>Nie masz uprawnień do wyświetlania tej treści.</value>
+  </data>
+  <data name="Non-calculated\Views\AuthenticationStandardLogonParameters_Blazor_DetailView\Items\LogonText\Text" xml:space="preserve">
+    <value>Wpisz poniżej swoją nazwę użytkownika i hasło.</value>
+  </data>
+  <data name="Non-calculated\Views\AuthenticationStandardLogonParameters_Win_DetailView\Items\LogonText\Text" xml:space="preserve">
+    <value>&lt;size=14&gt;Zaloguj się na swoje konto&lt;/size&gt;</value>
+  </data>
+  <data name="Non-calculated\Views\ChangePasswordParameters_Blazor_DetailView\Items\ChangePasswordText\Text" xml:space="preserve">
+    <value>Aby zmienić hasło, wpisz stare i nowe hasło w pola tekstowe poniżej.</value>
+  </data>
+  <data name="Non-calculated\Views\ResetPasswordParameters_Blazor_DetailView\Items\ResetPasswordText\Text" xml:space="preserve">
+    <value>Wprowadź nowe hasło dla użytkownika lub zaakceptuj hasło wygenerowane automatycznie, a następnie udostępnij hasło użytkownikowi.</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_Blazor_DetailView\Caption" xml:space="preserve">
+    <value>Zaloguj się</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_Blazor_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_Blazor_DetailView\Items\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_Blazor_DetailView\Items\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_DetailView\Items\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_ListView\Columns\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_Win_DetailView\Caption" xml:space="preserve">
+    <value>Zaloguj się</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_Win_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_Win_DetailView\Items\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_Win_DetailView\Items\UserName\Caption" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_Blazor_DetailView\Caption" xml:space="preserve">
+    <value>Zmień hasło</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_Blazor_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_Blazor_DetailView\Items\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_Blazor_DetailView\Items\NewPassword\Caption" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_DetailView\Items\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_DetailView\Items\NewPassword\Caption" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_ListView\Columns\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_ListView\Columns\NewPassword\Caption" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_LookupListView\Columns\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_LookupListView\Columns\NewPassword\Caption" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_Blazor_DetailView\Caption" xml:space="preserve">
+    <value>Zmień hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_Blazor_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_Blazor_DetailView\Items\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_Blazor_DetailView\Items\NewPassword\Caption" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_Blazor_DetailView\Items\OldPassword\Caption" xml:space="preserve">
+    <value>Stare hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\Items\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\Items\NewPassword\Caption" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\Items\OldPassword\Caption" xml:space="preserve">
+    <value>Stare hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_ListView\Columns\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_ListView\Columns\NewPassword\Caption" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_ListView\Columns\OldPassword\Caption" xml:space="preserve">
+    <value>Stare hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_LookupListView\Columns\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_LookupListView\Columns\NewPassword\Caption" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_LookupListView\Columns\OldPassword\Caption" xml:space="preserve">
+    <value>Stare hasło</value>
+  </data>
+  <data name="Views\PermissionPolicyRole_DetailView\Layout\Main\SimpleEditors1\IsAdministrative\ToolTip" xml:space="preserve">
+    <value>Uprawnienia są konfigurowalne i dotyczą wyłącznie ról innych niż administracyjne.</value>
+  </data>
+  <data name="Views\PermissionPolicyRole_DetailView\Layout\Main\Tabs1\ActionPermissions\Caption" xml:space="preserve">
+    <value>Zabronione akcje</value>
+  </data>
+  <data name="Views\PermissionPolicyRole_DetailView\Layout\Main\Tabs1\NavigationPermissions\Caption" xml:space="preserve">
+    <value>Uprawnienia nawigacyjne</value>
+  </data>
+  <data name="Views\PermissionPolicyRole_DetailView\Layout\Main\Tabs1\TypePermissions\Caption" xml:space="preserve">
+    <value>Typ uprawnień</value>
+  </data>
+  <data name="Views\PermissionPolicyRole_DetailView\Layout\Main\Tabs1\Users\Caption" xml:space="preserve">
+    <value>Użytkownicy</value>
+  </data>
+  <data name="Views\PermissionPolicyTypePermissionObject_MemberPermissions_ListView\Columns\Members\NullText" xml:space="preserve">
+    <value>Wybierz członków</value>
+  </data>
+  <data name="Views\SecuredActionDescriptor_LookupListView\Columns\Image\Caption" xml:space="preserve">
+    <value>Obraz</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_ListView\Caption" xml:space="preserve">
+    <value>Parametry zmiany hasła</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_Blazor_DetailView\Items\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Views\PermissionPolicyMemberPermissionsObject_LookupListView\Columns\Members\NullText" xml:space="preserve">
+    <value>Wybierz członków</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_ListView\Caption" xml:space="preserve">
+    <value>Zmiana hasła przy logowaniu</value>
+  </data>
+  <data name="Views\PermissionPolicyMemberPermissionsObject_DetailView\Items\Members\NullText" xml:space="preserve">
+    <value>Wybierz członków</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_DetailView\Items\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_Blazor_DetailView\Caption" xml:space="preserve">
+    <value>Resetuj hasło</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_LookupListView\Caption" xml:space="preserve">
+    <value>Parametry logowania standardowego</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_LookupListView\Caption" xml:space="preserve">
+    <value>Zmiana hasła przy logowaniu</value>
+  </data>
+  <data name="Views\SecuredActionDescriptor_LookupListView\Columns\Category\Caption" xml:space="preserve">
+    <value>Kategoria</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_LookupListView\Caption" xml:space="preserve">
+    <value>Parametry zmiany hasła</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_ListView\Caption" xml:space="preserve">
+    <value>Parametry logowania standardowego</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_LookupListView\Columns\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.SecurityRequestOperations\Value" xml:space="preserve">
+    <value>Operacje żądań bezpieczeństwa</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_ListView\Columns\Password\Caption" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="NavigationItems\Items\Default\Items\PermissionPolicyUser_ListView\Caption" xml:space="preserve">
+    <value>Użytkownicy</value>
+  </data>
+  <data name="Views\PermissionPolicyMemberPermissionsObject_ListView\Columns\Members\NullText" xml:space="preserve">
+    <value>Wybierz członków</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_LookupListView\Caption" xml:space="preserve">
+    <value>Parametry resetowania hasła</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_ListView\Caption" xml:space="preserve">
+    <value>Parametry resetowania hasła</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_Blazor_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+</root>
