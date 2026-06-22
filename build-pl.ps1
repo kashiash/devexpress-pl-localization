@@ -47,7 +47,17 @@ Write-Host "`n=== DevExpress.XtraScheduler.Core (tylko patch RESX, brak rebuildu
 $schSrc = "$src\DevExpress.XtraScheduler.Core"
 & "$patches\xtraScheduler-pl.ps1" -PlResx "$schSrc\LocalizationRes.pl.resx"
 
-# ── 4. DevExpress.ExpressApp (wszystkie Blazor-relevant subpakiety) ────────────
+# ── 4. DevExpress.Dashboard.Core ─────────────────────────────────────────────
+Write-Host "`n=== DevExpress.Dashboard.Core ===" -ForegroundColor Cyan
+$dashSrc = "$src\DevExpress.Dashboard.Core"
+& "$patches\dashboard-pl.ps1" -PlResx "$dashSrc\LocalizationRes.pl.resx"
+$dashProj = Get-ChildItem $dashSrc -Filter "*.NetCore.csproj" -ErrorAction SilentlyContinue | Select-Object -First 1
+if (-not $dashProj) { $dashProj = Get-ChildItem $dashSrc -Filter "*.csproj" -ErrorAction SilentlyContinue | Select-Object -First 1 }
+if ($dashProj) {
+    Build-And-Copy $dashProj.FullName "$DxRoot\_out_dash" 'DevExpress.Dashboard.v26.1.Core.resources.dll'
+} else { Write-Warning "Brak csproj w $dashSrc" }
+
+# ── 5. DevExpress.ExpressApp (wszystkie Blazor-relevant subpakiety) ────────────
 Write-Host "`n=== DevExpress.ExpressApp ===" -ForegroundColor Cyan
 & "$patches\expressApp-pl.ps1" -SrcRoot $exp
 
