@@ -1429,7 +1429,7 @@
     <value>Powrót do edytora spotkania</value>
   </data>
   <data name="DxBlazorStringId.A11y_Scheduler_RecurrentDialog_Status" xml:space="preserve">
-    <value>Powtarzaj {0} dialog</value>
+    <value>Dialog: {0}</value>
   </data>
   <data name="DxBlazorStringId.A11y_Scheduler_RecurrentEditDialog" xml:space="preserve">
     <value>Edytuj powtarzające się spotkanie</value>

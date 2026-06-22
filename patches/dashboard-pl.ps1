@@ -22,11 +22,11 @@ $translations = [ordered]@{
 
     # Obliczenia
     "DashboardStringId.CalculationAlongSpecificDimensions"           = "Określone..."
-    "DashboardStringId.CalculationTypeMovingCalculation"             = "Obliczenie ruchome"
+    "DashboardStringId.CalculationTypeMovingCalculation"             = "Obliczenie kroczące"
     "DashboardStringId.CalculationTypePercentageDifference"          = "Różnica procentowa"
     "DashboardStringId.CalculationTypeRank"                          = "Ranking"
     "DashboardStringId.CalculationTypeRunningTotal"                  = "Suma narastająca"
-    "DashboardStringId.MovingCalculationMeasureCaptionFormatString"  = "Ruchome z {0}"
+    "DashboardStringId.MovingCalculationMeasureCaptionFormatString"  = "Kroczące z {0}"
     "DashboardStringId.PercentOfTotalCalculationMeasureCaptionFormatString" = "Procent z sumy {0}"
     "DashboardStringId.RankCalculationMeasureCaptionFormatString"    = "Ranking z {0}"
     "DashboardStringId.RunningTotalCalculationMeasureCaptionFormatString"   = "Suma narastająca z {0}"
@@ -42,11 +42,11 @@ $translations = [ordered]@{
     "DashboardStringId.CardLayoutTemplateStretchedCaption"  = "Rozciągnięty"
 
     # Elementy wiersza karty
-    "DashboardStringId.CardRowDataElementTypeAbsoluteVariationCaption" = "Odchylenie bezwzględne"
+    "DashboardStringId.CardRowDataElementTypeAbsoluteVariationCaption" = "Zmiana bezwzględna"
     "DashboardStringId.CardRowDataElementTypeActualValueCaption"       = "Wartość rzeczywista"
     "DashboardStringId.CardRowDataElementTypeDeltaIndicatorCaption"    = "Wskaźnik delta"
     "DashboardStringId.CardRowDataElementTypePercentOfTargetCaption"   = "Procent celu"
-    "DashboardStringId.CardRowDataElementTypePercentVariationCaption"  = "Odchylenie procentowe"
+    "DashboardStringId.CardRowDataElementTypePercentVariationCaption"  = "Zmiana procentowa"
     "DashboardStringId.CardRowDataElementTypeSubtitleCaption"          = "Podtytuł"
     "DashboardStringId.CardRowDataElementTypeTargetValueCaption"       = "Wartość docelowa"
 
@@ -142,9 +142,9 @@ $translations = [ordered]@{
     "DashboardStringId.DeltaIndicationModeWarningIfGreaterCaption" = "Ostrzeżenie gdy większe"
     "DashboardStringId.DeltaIndicationModeWarningIfLessCaption"    = "Ostrzeżenie gdy mniejsze"
     "DashboardStringId.DeltaThresholdTypeAbsolute"                 = "Bezwzględny"
-    "DashboardStringId.DeltaValueTypeAbsoluteVariationCaption"     = "Odchylenie bezwzględne"
+    "DashboardStringId.DeltaValueTypeAbsoluteVariationCaption"     = "Zmiana bezwzględna"
     "DashboardStringId.DeltaValueTypePercentOfTargetCaption"       = "Procent celu"
-    "DashboardStringId.DeltaValueTypePercentVariationCaption"      = "Odchylenie procentowe"
+    "DashboardStringId.DeltaValueTypePercentVariationCaption"      = "Zmiana procentowa"
     "DashboardStringId.DeltaValueTypeTargetValueCaption"           = "Wartość docelowa"
 
     # Opisy elementów

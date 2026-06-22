@@ -1397,7 +1397,7 @@ Zwraca liczbę wierszy z bieżącego wiersza do ostatniego wiersza w oknie.</val
     <value>Określone...</value>
   </data>
   <data name="DashboardStringId.CalculationTypeMovingCalculation" xml:space="preserve">
-    <value>Obliczenie ruchome</value>
+    <value>Obliczenie kroczące</value>
   </data>
   <data name="DashboardStringId.CalculationTypePercentageDifference" xml:space="preserve">
     <value>Różnica procentowa</value>
@@ -1409,7 +1409,7 @@ Zwraca liczbę wierszy z bieżącego wiersza do ostatniego wiersza w oknie.</val
     <value>Suma narastająca</value>
   </data>
   <data name="DashboardStringId.MovingCalculationMeasureCaptionFormatString" xml:space="preserve">
-    <value>Ruchome z {0}</value>
+    <value>Kroczące z {0}</value>
   </data>
   <data name="DashboardStringId.PercentOfTotalCalculationMeasureCaptionFormatString" xml:space="preserve">
     <value>Procent z sumy {0}</value>
@@ -1439,7 +1439,7 @@ Zwraca liczbę wierszy z bieżącego wiersza do ostatniego wiersza w oknie.</val
     <value>Rozciągnięty</value>
   </data>
   <data name="DashboardStringId.CardRowDataElementTypeAbsoluteVariationCaption" xml:space="preserve">
-    <value>Odchylenie bezwzględne</value>
+    <value>Zmiana bezwzględna</value>
   </data>
   <data name="DashboardStringId.CardRowDataElementTypeActualValueCaption" xml:space="preserve">
     <value>Wartość rzeczywista</value>
@@ -1451,7 +1451,7 @@ Zwraca liczbę wierszy z bieżącego wiersza do ostatniego wiersza w oknie.</val
     <value>Procent celu</value>
   </data>
   <data name="DashboardStringId.CardRowDataElementTypePercentVariationCaption" xml:space="preserve">
-    <value>Odchylenie procentowe</value>
+    <value>Zmiana procentowa</value>
   </data>
   <data name="DashboardStringId.CardRowDataElementTypeSubtitleCaption" xml:space="preserve">
     <value>Podtytuł</value>
@@ -1649,13 +1649,13 @@ Zwraca liczbę wierszy z bieżącego wiersza do ostatniego wiersza w oknie.</val
     <value>Bezwzględny</value>
   </data>
   <data name="DashboardStringId.DeltaValueTypeAbsoluteVariationCaption" xml:space="preserve">
-    <value>Odchylenie bezwzględne</value>
+    <value>Zmiana bezwzględna</value>
   </data>
   <data name="DashboardStringId.DeltaValueTypePercentOfTargetCaption" xml:space="preserve">
     <value>Procent celu</value>
   </data>
   <data name="DashboardStringId.DeltaValueTypePercentVariationCaption" xml:space="preserve">
-    <value>Odchylenie procentowe</value>
+    <value>Zmiana procentowa</value>
   </data>
   <data name="DashboardStringId.DeltaValueTypeTargetValueCaption" xml:space="preserve">
     <value>Wartość docelowa</value>
