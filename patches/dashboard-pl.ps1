@@ -446,9 +446,9 @@ $translations = [ordered]@{
     "DashboardStringId.RangeFilterSelectRangeToCaption"                  = "Do:"
 
     # Typy rankingu
-    "DashboardStringId.RankTypeCompetition"                        = "Konkurencja"
+    "DashboardStringId.RankTypeCompetition"                        = "Standardowy"
     "DashboardStringId.RankTypeDense"                              = "Gęsty"
-    "DashboardStringId.RankTypePercentile"                         = "Percentyl"
+    "DashboardStringId.RankTypePercentile"                         = "Percentylowy"
 
     # Format daty dokładnej
     "DashboardStringId.ResetExactDateFormatToDefault"              = "Przywróć domyślny"

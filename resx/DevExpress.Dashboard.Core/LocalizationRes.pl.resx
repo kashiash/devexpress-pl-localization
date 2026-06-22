@@ -2381,13 +2381,13 @@ Zwraca liczbę wierszy z bieżącego wiersza do ostatniego wiersza w oknie.</val
     <value>Do:</value>
   </data>
   <data name="DashboardStringId.RankTypeCompetition" xml:space="preserve">
-    <value>Konkurencja</value>
+    <value>Standardowy</value>
   </data>
   <data name="DashboardStringId.RankTypeDense" xml:space="preserve">
     <value>Gęsty</value>
   </data>
   <data name="DashboardStringId.RankTypePercentile" xml:space="preserve">
-    <value>Percentyl</value>
+    <value>Percentylowy</value>
   </data>
   <data name="DashboardStringId.ResetExactDateFormatToDefault" xml:space="preserve">
     <value>Przywróć domyślny</value>
